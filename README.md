@@ -17,9 +17,11 @@ El sistema tiene como objetivo informatizar la gestión de alquileres temporario
 
 A continuación se presenta el esquema del modelo de datos correspondiente a la aplicación.
 
-### Diagrama Entidad-Relación (DER) / Diagrama de Clases
+### Diagrama Entidad-Relación (DER)
 
-> **Pendiente:** El Diagrama Entidad-Relación (DER) se incorporará como imagen una vez finalizado su diseño.
+El siguiente diagrama representa las entidades, atributos y relaciones definidas para el sistema de la inmobiliaria.
+
+![Diagrama Entidad-Relación de Inmobiliaria CC](./docs/InmobiliariaCC.png)
 
 ---
 
