@@ -1,4 +1,4 @@
-# 🏠 Inmobiliaria CC
+# Inmobiliaria CC
 
 Proyecto desarrollado para la materia **Laboratorio de Programación 2**.
 
@@ -6,14 +6,14 @@ El sistema tiene como objetivo informatizar la gestión de alquileres temporario
 
 ---
 
-## 👥 Integrantes del Grupo
+## Integrantes del Grupo
 
-* **Natalia Camargo** - *[camargonatalia83@gmail.com](mailto:camargonatalia83@gmail.com)* - GitHub: *pendiente* - Discord: `pendiente`
+* **Natalia Camargo** - *[camargonatalia83@gmail.com](mailto:camargonatalia83@gmail.com)* - GitHub: *NataliaCamargo* - Discord: `pendiente`
 * **Concha Guillermo** - *[gconcha@ulp.edu.ar](mailto:gconcha@ulp.edu.ar)* - GitHub: `LaloSL` - Discord: `pendiente`
 
 ---
 
-## 📐 Modelado de Datos
+##  Modelado de Datos
 
 Se realizó un primer modelado del sistema contemplando las entidades:
 
@@ -45,7 +45,7 @@ El archivo editable del diagrama se encuentra disponible en:
 
 ---
 
-## 💻 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 El proyecto se desarrolla utilizando:
 
@@ -73,7 +73,7 @@ dotnet-ef 10.0.10
 
 ---
 
-## 🏗️ Estado actual del desarrollo
+## Estado actual del desarrollo
 
 ### Completado
 
@@ -107,7 +107,7 @@ dotnet-ef 10.0.10
 
 ---
 
-## 🗄️ Base de Datos
+##  Base de Datos
 
 El proyecto utilizará **MySQL** como sistema gestor de base de datos y **Entity Framework Core** para realizar el acceso a datos desde ASP.NET Core.
 
@@ -115,7 +115,7 @@ El proyecto utilizará **MySQL** como sistema gestor de base de datos y **Entity
 
 ---
 
-## 🚀 Instalación y ejecución
+## Instalación y ejecución
 
 El proyecto puede ejecutarse desde la terminal ubicándose en la carpeta raíz del proyecto:
 
