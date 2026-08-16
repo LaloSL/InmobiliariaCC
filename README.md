@@ -8,7 +8,7 @@ El sistema tiene como objetivo informatizar la gestión de alquileres temporario
 
 ## 👥 Integrantes del Grupo
 
-* **Natalia Camargo** - *correo pendiente* - GitHub: *pendiente* - Discord: `pendiente`
+* **Natalia Camargo** - *[camargonatalia83@gmail.com](mailto:camargonatalia83@gmail.com)* - GitHub: *pendiente* - Discord: `pendiente`
 * **Concha Guillermo** - *[gconcha@ulp.edu.ar](mailto:gconcha@ulp.edu.ar)* - GitHub: `LaloSL` - Discord: `pendiente`
 
 ---
