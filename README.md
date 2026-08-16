@@ -19,7 +19,12 @@ A continuación se presenta el esquema del modelo de datos correspondiente a la 
 
 ### Diagrama Entidad-Relación (DER) / Diagrama de Clases
 
-> **Pendiente:** El diagrama correspondiente al sistema de la inmobiliaria se incorporará una vez definido el modelo de datos.
+```mermaid
+erDiagram
+    PROPIETARIO ||--o{ INMUEBLE : posee
+    INQUILINO ||--o{ RESERVA : realiza
+    INMUEBLE ||--o{ RESERVA : tiene
+```
 
 ---
 
