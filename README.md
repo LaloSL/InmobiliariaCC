@@ -56,6 +56,7 @@ El proyecto se desarrolla utilizando:
 * **MySQL**
 * **Visual Studio Code**
 * **Git / GitHub**
+* **GitHub Desktop**
 
 ### Paquetes instalados
 
@@ -78,12 +79,20 @@ dotnet-ef 10.0.10
 
 * Creación del repositorio GitHub.
 * Configuración del archivo `.gitignore`.
-* Creación inicial del `README.md`.
-* Diseño del Diagrama Entidad-Relación.
-* Creación del proyecto **ASP.NET Core MVC**.
+* Creación y actualización del `README.md`.
+* Diseño del Diagrama Entidad-Relación (DER).
+* Incorporación del DER y su archivo editable en la carpeta `docs`.
+* Creación del proyecto **ASP.NET Core MVC** con .NET 10.
 * Comprobación de ejecución del proyecto en `localhost`.
-* Instalación del proveedor de Entity Framework Core para MySQL.
-* Instalación de las herramientas necesarias para trabajar con migraciones.
+* Instalación de `MySql.EntityFrameworkCore 10.0.7`.
+* Instalación de `Microsoft.EntityFrameworkCore.Design 10.0.10`.
+* Verificación de `dotnet-ef 10.0.10`.
+* Inicialización de Git en la carpeta local del proyecto.
+* Vinculación del repositorio local con el repositorio remoto de GitHub.
+* Configuración de la rama local `main` para trabajar con `origin/main`.
+* Incorporación de la estructura inicial de ASP.NET Core MVC al repositorio.
+* Primer commit y push del código fuente del proyecto realizados correctamente.
+* Proyecto disponible para trabajar desde Visual Studio Code y GitHub Desktop.
 
 ### Próximos pasos
 
@@ -92,7 +101,7 @@ dotnet-ef 10.0.10
 3. Crear y configurar `AppDBContext`.
 4. Configurar la conexión con MySQL.
 5. Crear y aplicar las migraciones.
-6. Comprobar las tablas en MySQL.
+6. Comprobar la creación de las tablas en MySQL.
 7. Implementar el ABM de Propietarios.
 8. Implementar el ABM de Inquilinos.
 
@@ -100,18 +109,36 @@ dotnet-ef 10.0.10
 
 ## 🗄️ Base de Datos
 
-> **Pendiente:** Se incorporará el archivo `.sql` necesario para crear e inicializar la base de datos.
+El proyecto utilizará **MySQL** como sistema gestor de base de datos y **Entity Framework Core** para realizar el acceso a datos desde ASP.NET Core.
+
+> **Pendiente:** Configurar la conexión, crear la base de datos mediante las migraciones correspondientes e incorporar el archivo `.sql` solicitado para la entrega.
 
 ---
 
 ## 🚀 Instalación y ejecución
 
-Actualmente el proyecto puede ejecutarse desde la terminal, ubicándose en la carpeta raíz del proyecto:
+El proyecto puede ejecutarse desde la terminal ubicándose en la carpeta raíz del proyecto:
 
 ```bash
 dotnet run
 ```
 
-La aplicación se ejecutará utilizando la dirección `localhost` indicada por ASP.NET Core en la terminal.
+ASP.NET Core compilará e iniciará la aplicación e indicará en la terminal la dirección local disponible, por ejemplo:
 
-> **Pendiente:** Esta sección se completará cuando se encuentre configurada la conexión con MySQL y la base de datos.
+```text
+http://localhost:5104
+```
+
+Luego se puede acceder a dicha dirección desde el navegador para visualizar la aplicación.
+
+### Requisitos actuales
+
+Para trabajar con el proyecto es necesario disponer de:
+
+* **.NET 10 SDK**
+* **MySQL**
+* **Visual Studio Code** o un entorno compatible con proyectos .NET
+* **Git**
+* **Entity Framework Core CLI (`dotnet-ef`)**
+
+> La configuración de la base de datos y las instrucciones completas de instalación se ampliarán a medida que avance el desarrollo.
