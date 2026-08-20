@@ -1,0 +1,49 @@
+@model List<InmobiliariaCC.Models.Inquilino>
+
+@{
+    ViewData["Title"] = "Lista de Inquilinos";
+}
+
+<h1>Lista de Inquilinos</h1>
+
+<p>
+    <a asp-action="Nuevo" class="btn btn-primary">
+        Nuevo Inquilino
+    </a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre Completo</th>
+            <th>DNI</th>
+            <th>Teléfono</th>
+            <th>Email</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var inquilino in Model)
+        {
+            <tr>
+                <td>@inquilino.IdInquilino</td>
+                <td>@inquilino.NombreCompleto</td>
+                <td>@inquilino.DNI</td>
+                <td>@inquilino.Telefono</td>
+                <td>@inquilino.Email</td>
+
+                <td>
+                    <a asp-action="Editar" asp-route-id="@inquilino.IdInquilino" class="btn btn-warning btn-sm">
+                        Editar
+                    </a>
+
+                    <a asp-action="Eliminar" asp-route-id="@inquilino.IdInquilino" class="btn btn-danger btn-sm">
+                        Eliminar
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

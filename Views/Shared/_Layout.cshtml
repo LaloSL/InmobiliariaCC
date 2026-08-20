@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,20 +19,12 @@
 
             <div class="container-fluid">
 
-                <a class="navbar-brand"
-                   asp-area=""
-                   asp-controller="Home"
-                   asp-action="Index">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     InmobiliariaCC
                 </a>
 
-                <button class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target=".navbar-collapse"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
                     <span class="navbar-toggler-icon"></span>
 
@@ -42,29 +35,26 @@
                     <ul class="navbar-nav flex-grow-1">
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-controller="Home"
-                               asp-action="Index">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
                                 Inicio
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-controller="Propietario"
-                               asp-action="Lista">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Propietario" asp-action="Lista">
                                 Propietarios
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-controller="Home"
-                               asp-action="Privacy">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Inquilino" asp-action="Lista">
                                 Inquilinos
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">
+                                Privacy
                             </a>
                         </li>
 
@@ -96,9 +86,7 @@
 
             &copy; 2026 - InmobiliariaCC -
 
-            <a asp-area=""
-               asp-controller="Home"
-               asp-action="Privacy">
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">
                 Privacy
             </a>
 
@@ -116,4 +104,5 @@
     @await RenderSectionAsync("Scripts", required: false)
 
 </body>
+
 </html>
